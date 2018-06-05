@@ -1,0 +1,292 @@
+.card_main{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 13px;
+  overflow: hidden;
+  clear: both;
+  :global{
+    .card_main_title{
+      border: 1px solid #dfdfdf;
+      margin-bottom: 10px;
+      background: #fff;
+      .circle_list{
+        height: 88px;
+        background: #efefef;
+        padding: 10px;
+        .circle_left{
+          height: 70px;
+          width: 70px;
+          float: left;
+          padding: 5px;
+          background: #FFF;
+          img{
+            width: 60px;
+            height:60px;
+          }
+        }
+        .circle_center{
+          height: 73px;
+          width: 650px;
+          float: left;
+          margin-left: 20px;
+          .circle_name{
+            height: 35px;
+            line-height: 35px;
+            h3{
+              font-size: 20px;
+              height: 35px;
+              line-height: 35px;
+              padding-right: 10px;
+              font-weight: 100;
+              float: left;
+              max-width: 220px;
+              overflow: hidden;
+              color: #333333;
+            }
+            .numinfo{
+              height: 35px;
+              line-height: 35px;
+              margin-left: 10px;
+              float: left;
+              span{
+                color: #f00;
+              }
+            }
+          }
+          .circle_tip{
+            height: 35px;
+            line-height: 35px;
+            color: #828282;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .circle_right{
+          height: 30px;
+          line-height: 30px;
+          width: 120px;
+          text-align: center;
+          float: right;
+          margin-top: 22px;
+          .ant-btn.ant-btn-primary{
+            width: 110px;
+            height:30px;
+            span{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.card_content{
+  width: 1200px;
+  background: #FFF;
+  border-top: 1px solid #EFEFEF;
+  :global{
+    .card_content_left{
+      width: 910px;
+      float: left;
+      padding: 10px;
+      border-right: 1px solid #dfdfdf;
+      .card_content_left_top{
+        height: 80px;
+        width: 888px;
+        border-bottom: 1px dotted #ccc;
+        .card_img{
+          float: left;
+          border-radius: 100px;
+          overflow: hidden;
+          height: 67px;
+          width: 67px;
+          border: 1px solid #d9d9d9;
+          img{
+            height: 65px;
+            width: 65px;
+          }
+        }
+        .card_info{
+          float: left;
+          margin-left: 14px;
+          margin-top: 3px;
+          width: 320px;
+          height: 70px;
+          h3{
+            width: 650px;
+            overflow: hidden;
+            font-size: 16px;
+            height: 40px;
+            line-height: 40px;
+          }
+          .card_user{
+            height:30px;
+            line-height: 30px;
+            .user{
+              padding: 0 15px;
+              height: 30px;
+              line-height: 30px;
+              display: inline-block;
+            }
+            .filter{
+              display: inline-block;
+              width: 70px;
+              height: 22px;
+              text-align: center;
+              line-height: 20px;
+              border: 1px solid #C3C1C1;
+              border-radius: 3px;
+              cursor: pointer;
+              &:hover{
+                border: 1px solid #f00;
+                background: #f00;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .card_detail{
+        width: 888px;
+        margin-top: 20px;
+        border-bottom: 1px dotted #ccc;
+        .card_detail_content{
+          width: 888px;
+          margin-bottom: 30px;
+        }
+        .card_detail_bottom{
+          margin-right: 320px;
+          width: 146px;
+          float: right;
+          span{
+            display: block;
+            width: 80%;
+            margin-right: 10px;
+            height: 25px;
+            line-height: 25px;
+            padding-left: 30px;
+            cursor: pointer;
+            background: url("../../assets/card_zan.png") no-repeat left center;
+            &:hover{
+              background: url("../../assets/card_zan2.png") no-repeat left center;
+            }
+          }
+        }
+      }
+      .card_floor{
+        .card_floor_list{
+          margin-top: 30px;
+          border-bottom: 1px solid #ccc;
+          .list_img{
+            width: 37px;
+            height: 37px;
+            float: left;
+            border-radius: 100px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            img{
+              width: 35px;
+              height: 35px;
+            }
+          }
+          .list_content{
+            float: right;
+            width: 840px;
+            padding-bottom: 10px;
+            .list_content_top{
+              height: 22px;
+              width: 840px;
+              float: left;
+              background: #f2f2f2;
+              padding: 0 10px;
+              color: #b4b4b4;
+            }
+            .list_content_reply{
+              float: left;
+              width: 600px;
+              margin-top: 15px;
+              font-size: 14px;
+              word-wrap: break-word
+            }
+            .list_content_reply_btn{
+              float: right;
+              margin-top: 15px;
+              width: 160px;
+              color: #acacac;
+              text-align: right;
+              padding: 0 5px;
+              cursor: pointer;
+            }
+            .reply_box{
+              width:100%;
+              float: left;
+              margin-top: 15px;
+              height: 200px;
+              border:1px solid black;
+            }
+          }
+        }
+        .pag{
+          margin: 10px auto;
+          .ant-pagination{
+            text-align: center;
+          }
+        }
+      }
+      .reply_all{
+        width: 890px;
+        margin-bottom: 20px;
+        border-top: 1px solid #ccc;
+        padding-top: 25px;
+        .reply_all_box{
+          width:100%;
+          height:100px;
+          border:1px solid black;
+        }
+      }
+    }
+    .card_content_right{
+      padding-left: 15px;
+      overflow: hidden;
+      .card_content_right_top{
+        width: 270px;
+        margin-top: 10px;
+        h3{
+          width: 120px;
+          clear: both;
+          height: 40px;
+          line-height: 40px;
+          color: #acacac;
+          font-weight: 100;
+        }
+        .hot_card_list{
+          overflow: hidden;
+          height: 31px;
+          line-height: 25px;
+          font-size: 14px;
+          margin-bottom: 10px;
+          border-bottom: 1px dashed #ccc;
+          padding-bottom: 10px;
+          a{
+            color: #555;
+            &:hover{
+              color:#E4393C
+            }
+          }
+        }
+      }
+      .circle_hot{
+        margin-top: 10px;
+        h3{
+          width: 120px;
+          clear: both;
+          height: 40px;
+          line-height: 40px;
+          color: #acacac;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.search{
+  width:1200px;
+  margin:0 auto;
+  :global{
+    .logo{
+      display: inline-block;
+      vertical-align: middle;
+      width: 250px;
+      height: 150px;
+      background: url("../../assets/logo.jpg") center center no-repeat;
+      cursor:pointer;
+    }
+    .select_dian{
+      margin: 0px 0px 0px 45px;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: 100px;
+      cursor: pointer;
+      height: 42px;
+      border-right:0;
+      text-align: center;
+      line-height: 42px;
+      overflow: hidden;
+      &:hover{
+        overflow: inherit;
+        .showList{
+            border-bottom:none;
+        }
+      }
+      li{
+        border: 1px solid #3497CE;
+        width:100%;
+        height:100%;
+        font-size: 14px;
+        border-right:1px solid #ccc;
+        &:hover{
+          color: red;
+        }
+      }
+      .hideList{
+        border:1px solid #ccc;
+      }
+    }
+
+    .search_input{
+      display: inline-block;
+      border: 1px solid #3497CE;
+      border-left:0;
+      vertical-align: middle;
+      height: 42px;
+      .ant-btn{
+        border-radius: 0;
+      }
+      input{
+        border:0px;
+        outline: 0px;
+        width: 430px;
+        padding-left: 20px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        vertical-align: middle;
+      }
+      button,span{
+        display: inline-block;
+        vertical-align: middle;
+        width: 96px;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+        color: #fff;
+        background-color: #3497CE;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+    .right_img{
+      margin-left: 75px;
+      display: inline-block;
+      vertical-align: middle;
+      width: 140px;
+      height: 80px;
+      line-height: 38px;
+    }
+  }
+}
+
+.dropdown_dian{
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  z-index: 100;
+  background-color: #ffffff;
+  border:1px solid #999999;
+  width: 300px;
+  :global{
+    .close_img{
+      height:100%;
+      background: url("../../assets/close.png") right center no-repeat ;
+      cursor: pointer;
+    }
+  }
+}

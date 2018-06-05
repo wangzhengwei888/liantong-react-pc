@@ -1,0 +1,55 @@
+{
+  "entry": "src/index.js",
+  "disableCSSModules": false,
+  "publicPath": "/",
+  "outputPath":"./dist",
+  "theme": "./antd-theme.js",
+ "autoprefixer": {
+   "browsers":
+   [
+                  "last 4 versions",
+                  "Firefox ESR",
+                  "not ie < 9"
+   ]
+ },
+  "proxy": {
+          "/reagent-front": {
+             "target": "http://new.reagent.com.cn/",
+             "changeOrigin": true,
+             "pathRewrite": { "^/reagent-front" : "/reagent-front" }
+           }
+  },
+  "extraBabelPlugins": [
+    "transform-runtime",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ],
+      "define":{
+        "TOOL":"DEV"
+      }
+    },
+    "production":{
+     "define":{
+        "TOOL":"PRO"
+      }
+    }
+  },
+  "dllPlugin": {
+    "exclude": [
+      "babel-runtime",
+      "antd",
+      "normalize.css",
+      "react-copy-to-clipboard"
+    ],
+    "include": [
+      "dva/router",
+      "dva/saga",
+      "dva/fetch",
+      "qs"
+    ]
+  }
+}

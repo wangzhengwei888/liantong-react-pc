@@ -1,0 +1,46 @@
+{
+  "name": "lieming",
+  "version": "1.0.0",
+  "description": "leiming dva",
+  "scripts": {
+    "start": "set BROWSER=none&&set PORT=8000&&roadhog server",
+    "build": "roadhog build",
+    "build:dll": "roadhog buildDll",
+    "test": "roadhog test",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "antd": "^2.6.4",
+    "babel-polyfill": "^6.23.0",
+    "babel-runtime": "^6.22.0",
+    "classnames": "^2.2.5",
+    "dva": "^1.2.0",
+    "dva-loading": "^0.2.3",
+    "qs": "^6.5.0",
+    "rc-banner-anim": "^0.5.16",
+    "react": "^15.4.2",
+    "react-copy-to-clipboard": "^5.0.0",
+    "react-dom": "^15.4.2",
+    "react-draft-wysiwyg": "^1.10.8",
+    "react-lazyload": "^2.2.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.1.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "expect": "^1.20.2",
+    "husky": "^0.13.0",
+    "redbox-react": "^1.3.2",
+    "redux-devtools": "^3.4.0",
+    "redux-devtools-dock-monitor": "^1.1.2",
+    "redux-devtools-log-monitor": "^1.3.0",
+    "roadhog": "^1.1.0"
+  }
+}

@@ -1,0 +1,62 @@
+.binding_email{
+  width: 960px;
+  :global{
+    .my_account_dynamic_Topimg{
+      width: 960px;
+      height: 70px;
+      background: url("../../assets/top/my_account_dynamic_Topimg.jpg") no-repeat center;
+      margin:0 auto;
+      background-size: 100%;
+    }
+    .security_nav_bar{
+      width: 100%;
+      background-color: #f5f5f5;
+      padding: 10px 14px;
+      border: 1px solid #e5e5e5;
+    }
+    .security_nav_bar>span>span:first-child{
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .binding_success{
+      height: 106px;
+      line-height: 106px;
+      margin-top: 20px;
+      padding-left: 80px;
+      font-size: 16px;
+      font-weight: bold;
+      background: url('../../assets/img/mailbox_success.png') 18px center no-repeat;
+      border:1px solid #e5e5e5;
+    }
+    .ant-form{
+      margin-top: 65px;
+      .ant-form-item{
+        display: flex;
+        .ant-form-item-label{
+          font-size: 14px;
+          font-weight: bold;
+          padding-right: 6px;
+          .ant-form-item-required:before{
+            content: '';
+          }
+        }
+        .ant-input{
+          border-radius: 0;
+          width: 290px;
+          height: 38px;
+        }
+        .ant-btn-primary{
+          width: 124px;
+        }
+        .ant-row{
+          .email_validate_code{
+            width: 178px;
+          }
+          button{
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}

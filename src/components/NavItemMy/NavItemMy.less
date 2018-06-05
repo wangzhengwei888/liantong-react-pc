@@ -1,0 +1,29 @@
+.Nav_Item{
+  border-right: 1px solid #efefef;
+  padding:0px 20px 0px 10px;
+  position:relative;
+  cursor:pointer;
+  font-size:14px;
+  :global{
+    .icon{
+      display: none;
+      position: absolute;
+      top:3px;
+      right:3px;
+      height: 10px;
+      &:hover{
+        color: #fb5210;;
+      }
+    }
+  }
+
+  &:hover{
+    background-color: #f7f7f7;
+    :global{
+      .icon{
+        display:block;
+      }
+    }
+  }
+
+}

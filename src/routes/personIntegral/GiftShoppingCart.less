@@ -1,0 +1,145 @@
+.gift_shopping_cart{
+  width: 960px;
+  :global{
+    .my_account_dynamic_Topimg{
+      width: 960px;
+      height: 70px;
+      background: url("../../assets/top/my_account_dynamic_Topimg.jpg") no-repeat center;
+      margin:0 auto;
+      background-size: 100%;
+    }
+    .security_nav_bar{
+      width: 100%;
+      background-color: #f5f5f5;
+      padding: 10px 14px;
+      border: 1px solid #e5e5e5;
+    }
+    .security_nav_bar>span>span:first-child{
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .gift_cart_body{
+      .gift_cart_body_title{
+        padding: 16px 8px;
+        font-size: 14px;
+        a{
+          font-size: 12px;
+        }
+        a,span{
+          color: #ff0000;
+          font-weight: bold;
+        }
+      }
+      table{
+        .ant-table-thead{
+          th{
+            border-right: none;
+          }
+          span{
+            color: #333333;
+            font-weight: bold;
+          }
+        }
+        th{
+          text-align: center;
+        }
+        .column-giftInfo{
+          padding: 8px;
+          .giftInfo{
+            display: flex;
+            img{
+              display: inline-block;
+              width: 58px;
+              height: 58px;
+              margin: 0 15px;
+            }
+            b{
+              font-size: 16px;
+              display: inline-block;
+              padding-bottom: 10px;
+            }
+          }
+        }
+        td:not(.column-giftInfo){
+          text-align: center;
+        }
+        td:last-child{
+          span{
+            color: #3497CE;
+            cursor: pointer;
+          }
+        }
+        .column_num{
+          display: flex;
+          justify-content: center;
+          i{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+          }
+          div{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            background: #f2f2f2;
+          }
+          input{
+            width: 48px;
+            height: 30px;
+          }
+        }
+      }
+      .gift_cart_settlement{
+        border: 1px solid #e5e5e5;
+        text-align: right;
+        height: 64px;
+        line-height: 64px;
+        margin: 20px 0;
+        button{
+          background: #fe0000;
+          border: none;
+          outline: none;
+          display: inline-block;
+          color: #fff;
+          font-weight: bold;
+          width: 134px;
+          margin-left: 22px;
+          cursor: pointer;
+        }
+        b{
+          color: #ff0000;
+        }
+      }
+    }
+    .gift_cart_shade{
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(51,51,51,0.3);
+      z-index: 999;
+      .gift_cart_popup{
+        width: 392px;
+        height: 294px;
+        top: 50%;
+        background: #fff;
+        font-size: 16px;
+        margin: 158px auto 0;
+        text-align: center;
+        padding-top: 88px;
+        button{
+          border: none;
+          outline: none;
+          width: 140px;
+          height: 40px;
+          background: #ff0000;
+          color: #ffffff;
+          border-radius: 30px;
+          margin-top: 50px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+.search{
+  width:1200px;
+  margin:0 auto;
+  margin-top: 15px;
+  :global{
+    .logo{
+      display: inline-block;
+      vertical-align: middle;
+      //width: 250px;
+      //height: 150px;
+      //background: url("../../assets/logo.jpg") center center no-repeat;
+      width: 260px;
+      height: 95px;
+      background: url("../../assets/hs_logo.jpg") center center no-repeat;
+      cursor:pointer;
+      margin-right: 40px;
+    }
+    .select_dian{
+      margin: 0px 10px 0px 45px;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: 100px;
+      cursor: pointer;
+      height: 42px;
+      border: 2px solid #3497CE;
+      // padding-top: 7px;
+      // padding-left: 7px;
+      span{
+        // margin-top: 12px;
+        display: inline-block;
+        width: 56px;
+        height: 14px;
+        line-height: 14px;
+        vertical-align: middle;
+        font-family: '思源黑体';
+        font-size: 14px;
+        color: #666;
+      }
+      .bottom_img{
+        display: inline-block;
+        vertical-align: middle;
+        background: url("../../assets/drop.png") center center no-repeat;
+        width: 30px;
+        height: 14px;
+        cursor: pointer;
+      }
+      .storeList:hover{
+        background-color: #eee;
+      }
+    }
+
+    .search_input{
+      display: inline-block;
+      //border: 2px solid #3497CE;
+      //background-color: #3497ce;
+      vertical-align: middle;
+      height: 42px;
+     
+      //max-width: 600px;
+      max-width: 800px;
+      input{
+        border:0px;
+        outline: 0px;
+        width: 500px;
+        border: 2px solid #3497CE;
+        padding-left: 20px;
+        height: 38px;
+        font-size: 14px;
+        line-height: 38px;
+        vertical-align: middle;
+      }
+      button{
+        background-color: #3497CE;
+      }
+      button,span{
+        display: inline-block;
+        border-radius: 0;
+        vertical-align: middle;
+        width: 98px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      a{
+        font-family: '思源黑体';
+        display: inline-block;
+        font-size: 14px;
+        color: #999;
+        height: 12px;
+        line-height: 12px;
+        padding:0px 10px;
+        border-right: 1px solid #999;
+      }
+      a:first-child{color: red;}
+    }
+    .go_cart{
+      margin-left: 24px;
+      display: inline-block;
+      vertical-align: middle;
+      width: 150px;
+      height: 38px;
+      // padding: 13px 0px;
+      line-height: 38px;
+      // text-align: center;
+      border: 1px solid #E7E7E7;
+      a{
+        width: 65px;
+        height: 12px;
+        line-height: 12px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 12px;
+        font-family: '思源黑体';
+        color: #666;
+        position: relative;
+      }
+      .ant-badge{
+        height: 16px;
+        margin:0px 20px;
+      }
+    }
+    .cart_img{
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      width: 20px;
+      height: 16px;
+      cursor: pointer;
+      background: url("../../assets/shopping_cart.png") center center/contain no-repeat;
+    }
+    .cart_goimg{
+      height: 16px;
+      cursor: pointer;
+      width: 10px;
+      line-height: 16px;
+      display: inline-block;
+      vertical-align: middle;
+      color: #E9E9E9;
+      font-size: 14px;
+    }
+  }
+}
+
+.dropdown_dian{
+  position: absolute;
+  top: 39px;
+  left: -2px;
+  z-index: 100;
+  background-color: #ffffff;
+  border:1px solid #3497CE;
+  width: 450px;
+  :global{
+    .close_img{
+      height:100%;
+      background: url("../../assets/close.png") right center no-repeat ;
+      cursor: pointer;
+    }
+  }
+}

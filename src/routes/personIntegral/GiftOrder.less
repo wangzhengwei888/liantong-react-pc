@@ -1,0 +1,152 @@
+.gift_order{
+  width: 960px;
+  padding-bottom: 20px;
+  :global{
+    .my_account_dynamic_Topimg{
+      width: 960px;
+      height: 70px;
+      background: url("../../assets/top/my_account_dynamic_Topimg.jpg") no-repeat center;
+      margin:0 auto;
+      background-size: 100%;
+    }
+    .security_nav_bar{
+      width: 100%;
+      background-color: #f5f5f5;
+      padding: 10px 14px;
+      border: 1px solid #e5e5e5;
+    }
+    .security_nav_bar>span>span:first-child {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .gift_order_body{
+      .available_integral{
+        padding: 20px 8px;
+        color: #666666;
+        font-size: 14px;
+        span{
+          color: #ff0000;
+          font-weight: bold;
+        }
+      }
+      .receipt_info{
+        border: 1px solid #e5e5e5;
+        padding: 0px 10px;
+        .receipt_info_title{
+          padding: 20px 16px 20px 0px;
+          font-size: 14px;
+          span{
+            float: right;
+            color: #3497CE;
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+        .radio-group{
+          width: 100%;
+          padding-bottom: 24px;
+          li{
+            padding: 8px 0px 8px 28px;
+            input{
+              margin: 8px 3px 0 0;
+            }
+            p{
+              display: inline-block;
+              width: 770px;
+              .receipt_name,.receipt_address{
+                margin-right: 38px;
+              }
+              .receipt_phone{
+                margin-right: 32px;
+              }
+              .receipt_telephone{
+                margin-right: 20px;
+              }
+            }
+            div{
+              display: inline-block;
+              width: 90px;
+              font-size: 14px;
+              color: #3497CE;
+              span{
+                cursor: pointer;
+              }
+              span:last-child{
+                float: right;
+              }
+            }
+          }
+        }
+      }
+      .gift_list{
+        .ant-table-body{
+          margin-top: 15px;
+          .ant-table-thead{
+            th{
+              border-right: none;
+            }
+          }
+          th,td:not(.column-giftInfo){
+            text-align: center;
+          }
+          .column-giftInfo{
+            .giftInfo{
+              display: flex;
+              img{
+                display: inline-block;
+                width: 58px;
+                height: 58px;
+                margin: 0 15px;
+              }
+              b{
+                font-size: 16px;
+                display: inline-block;
+                padding-bottom: 10px;
+              }
+            }
+          }
+        }
+        p{
+          text-align: right;
+          padding-right: 10px;
+          height: 50px;
+          line-height: 50px;
+          span{
+            color: #ff0000;
+          }
+        }
+      }
+      .remarks{
+        padding-bottom: 50px;
+        input{
+          outline: none;
+          border: 1px solid #e5e5e5;
+          width: 330px;
+          height: 25px;
+          line-height: 25px;
+          padding-left: 6px;
+        }
+      }
+      .operation{
+        text-align: right;
+        .return_cart, .place_order{
+          padding: 10px 25px;
+          border-radius: 5px;
+          outline: none;
+          cursor: pointer;
+        }
+        .return_cart{
+          background-color: #eeeeee;
+          border: 1px solid #dddddd;
+          color: #666666;
+        }
+        .place_order{
+          background-color: #ff7719;
+          border: 1px solid #ff7719;
+          color: #FFFFFF;
+          margin: 0 18px 0 28px;
+        }
+      }
+    }
+  }
+}

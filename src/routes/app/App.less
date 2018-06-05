@@ -1,0 +1,52 @@
+.app_all{
+  width: 100%;
+  height:100%;
+  :global{
+    .app_top{
+      width: 100%;
+      height: 30px;
+      margin: 0 auto;
+      background-color: #F9F9F9;
+     // border: 1px solid red;
+    }
+    .app_bottom{
+      width: 100%;
+     // height: 330px;
+      margin: 0 auto;
+     // border: 1px solid red;
+    }
+
+    //公共class
+  .alls_guanggao_img{    //广告公共类
+    width: 960px;
+    height: 70px;
+    margin: 10px 0;
+  }
+  .show_ellipsis{
+      width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+  }
+
+  }
+}
+.person{
+  :global{
+    .person_body{
+      width:1200px;
+      margin: 0 auto;
+      position: relative;
+      .person_right{
+        position: absolute;
+        width: 990px;
+        //overflow: auto;
+        left:210px;
+        min-height: 1245px;
+        .ant-spin.ant-spin-spinning{
+          position: absolute !important;
+        }
+      }
+    }
+  }
+}

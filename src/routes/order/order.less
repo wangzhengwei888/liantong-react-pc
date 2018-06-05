@@ -1,0 +1,255 @@
+.order_body{
+  font-family:'思源黑体';
+  :global{
+    .order_content{
+      width: 1200px;  border:1px solid #e5e5e5;margin: 35px auto 30px;
+      padding: 0px;
+      margin-top: 0px;
+      .border-bot-y{border-bottom: 1px solid #e5e5e5;}
+    }
+    /*发票*/
+    .order_content_invoice{
+      height: 70px;
+      padding-left: 25px;
+      p{font-size: 16px;color:#333;padding: 5px 0px 6px;font-family: '思源黑体'}
+      .invoice_chace{font-size: 12px;color:#666;}
+      .invoice_chace span{padding-right: 15px;}
+    }
+    /*付款方式*/
+    .order_content_Payment{
+      height: 120px;
+      padding-left: 25px;
+      p{font-size: 18px;color:#333;padding: 20px 0px 15px;font-family: '思源黑体'}
+      .Payment_bot{
+        .ant-radio-button-wrapper{border-radius: 0px;border: 2px solid #eeeeee;font-size: 12px;color:#666666;}
+        .ant-radio-button-wrapper-checked{border-color: #ff1200;box-shadow: none;}
+      }
+    }
+    /*确认购物清单*/
+    .confirm_shopping_list{
+      padding:0px 22px 22px;
+      h2{font-size: 16px;font-family: '思源黑体';padding-bottom: 20px;}
+      p{font-size: 16px;color:#333;padding: 5px 0px 6px;font-family: '思源黑体'}
+      table{border: 1px solid #e5e5e5;}
+      table thead{background: #f5f5f5;height: 49px;border-bottom: 1px solid #e5e5e5;}
+      table thead tr{height: 49px;}
+      table thead tr th{height: 49px;word-break: break-all;    display: table-cell;}
+      table tbody tr{}
+      table tbody tr td{padding: 5px 0px;text-align: center;font-size: 14px;    border-top: 1px solid #e5e5e5;}
+      table tbody tr td .shopping_list_product{text-align: left;padding-left: 15px;}
+      table tbody tr td .shopping_list_product h3{font-size: 14px;color:#333;}
+      table tbody tr td .shopping_list_product p{font-size: 12px;color:#999;}
+      table tbody tr td:not(:last-child){border-right: 1px solid #e5e5e5;}
+      .confirm_shopping_form .ant-col-sm-6{text-align: left;}
+      .confirm_shopping_form .FormItem1 .ant-col-sm-6{width: 21%;}
+      .confirm_shopping_form .FormItem1 .ant-col-sm-14{width: 78%}
+      .confirm_shopping_form .FormItem2 .ant-col-sm-14{width: 74%}
+      .confirm_shopping_form .FormItem2 .ant-col-sm-6{width: 25%;}
+      .confirm_shopping_form .FormItem2 .has-feedback{width: 100%;}
+      .mail_confirm{padding-left: 10px;}
+
+
+      .table_top{
+        height: 40px;
+        line-height: 40px;
+        background-color: #f7f7f7;
+        font-size: .9rem;
+        font-weight: bold;
+        padding: 0px 10px;
+        border: 1px solid #e5e5e5;
+        border-bottom: none;
+      }
+
+      .ant-table-body{
+        border-radius: 0px;
+      }
+      .ant-table table{
+        border-radius: 0px;
+      }
+      .ant-table{
+        border-radius: 0px;
+      }
+      .ant-table-thead > tr > th{
+       padding: 0px;
+      }
+    }
+  /*流程、余额、积分*/
+    .confirm_shopping_information{
+      padding: 27px 20px 19px;
+       .ant-tree .ant-tree-child-tree .ant-tree-switcher,.ant-tree .ant-tree-child-tree .ant-tree-node-content-wrapper{display: none;}
+       .table_information{background: #f5f5f5;border: 1px solid #e5e5e5;padding-bottom: 20px;}
+       .table_information .table_information_top{height: 48px;line-height: 48px;border-bottom: 1px dashed #e5e5e5;padding-left: 32px;font-size: 14px;color:#333333;}
+       .table_information .table_information_bottom{font-size: 12px;color:#5f6061;}
+       .table_information .table_information_bottom .table_bottom_title{padding-left: 32px;}
+       .table_information .table_information_bottom .table_bottom_text{padding-left: 32px;}
+      //余额
+      .information_balance .table_bottom_title input{background: none;}
+      .information_balance .table_information .table_information_bottom .table_bottom_text .ant-btn-clicked:after{border-color: #ff0000;}
+      .information_integral .table_bottom_title input{background: none;}
+      .information_integral .table_information .table_information_bottom .table_bottom_text .ant-btn-clicked:after{border-color: #ff0000;}
+    }
+    .order_content_price{
+      width: 1200px;margin: 0px auto 53px;
+      ul{}
+      ul li{font-family: 思源黑体;font-size: 14px;font-weight: bold;color:#666666;text-align: right;padding-bottom: 10px;}
+      ul li span{display: inline-block;    min-width: 120px;
+        text-align: left;}
+      .btn1.ant-btn-clicked:after{border-color: #dcdcdc;}
+      .btn2.ant-btn-clicked:after{border-color: #ff7719;}
+    }
+  }
+}
+.invoice{
+  :global{
+    .ant-radio-button-wrapper-checked{
+      border:1px solid #ccc;
+    }
+    .ant-radio-button-wrapper{
+      transition: 0s!important;
+    }
+    .ant-radio-button-wrapper > .ant-radio-button {
+      margin-left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 100;
+    }
+    .invoice_section{
+      transition: 0s!important;
+      padding:10px 40px;
+      .ant-tabs-ink-bar.ant-tabs-ink-bar-animated{
+        display: none !important;
+      }
+      .pt{
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .zz{
+        border-radius: 0;
+        box-shadow: none;
+      }
+      input{
+        border-radius: 0;
+        cursor: pointer;
+      }
+      .no_inv{
+        width:100px;
+        text-align: center;
+        margin-right:10px;
+        border-radius: 0;
+        outline: none;
+        box-shadow:none;
+        color: #000;
+      }
+      .mx_inv{
+        width:100px;
+        text-align: center;
+        border-radius: 0;
+        outline: none;
+        box-shadow:none;
+        color: #000;
+      }
+      .pt_inv{
+        .inv_title{
+          max-height: 125px;
+          overflow: auto;
+          margin-top:10px;
+          .ant-input{
+            outline: none;
+            transition: 0s;
+            box-shadow:none
+          }
+          .ant-radio-button-wrapper{
+            border:0;
+            width: 90%;
+            box-shadow:none;
+            padding:0;
+            transition: 0s;
+          }
+          .ant-radio-button-wrapper:not(:first-child)::before{
+            width: 0;
+          }
+          .bus_inv{
+            z-index: 10;
+            position: relative;
+            span.edit{
+              display: none;
+              position: absolute;
+              right: 50px;
+              top:0;
+              cursor: pointer;
+              color: #005ea7;
+              z-index:200;
+              &:hover{
+                color: red;
+              }
+            }
+            span.del,span.conserve{
+              display: none;
+              position: absolute;
+              right: 15px;
+              top:0;
+              cursor: pointer;
+              color: #005ea7;
+              z-index:200;
+              &:hover{
+                color: red;
+              }
+            }
+            &:hover span{
+              display: block;
+            }
+          }
+          .addInv_inp{
+            position: relative;
+            width: 65%;
+            margin-left: 102px;
+            span.conserve{
+              display: none;
+              position: absolute;
+              right: 15px;
+              bottom:0;
+              cursor: pointer;
+              color: #005ea7;
+              &:hover{
+                color: red;
+              }
+            }
+            span.cancel{
+              display: none;
+              position: absolute;
+              right: 50px;
+              bottom:0;
+              cursor: pointer;
+              color: #005ea7;
+              &:hover{
+                color: red;
+              }
+            }
+            &:hover span{
+              display: block;
+            }
+          }
+          .addInv_btn{
+            color: #005ea7;
+            cursor: pointer;
+            padding-left: 102px;
+            &:hover{
+              color: red;
+            }
+          }
+        }
+      }
+    }
+    .actived{
+      border:2px solid #e4393c;
+      background: url("../../assets/selected-icon.png") no-repeat right bottom;
+    }
+    .hide{
+      display: none;
+    }
+  }
+}
+
+

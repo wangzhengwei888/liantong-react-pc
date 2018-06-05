@@ -1,0 +1,90 @@
+.backDetail_body{
+  font-family:'思源黑体';
+  font-size:12px;
+  color:#333;
+  :global{
+    .backDetail_content{
+      width:990px;
+      .title{
+        text-align: left;
+        font-size: 16px;
+        color: #666;
+        line-height: 35px;
+        height: 35px;
+      }
+      .goodsInfo{
+        .infoTab{
+          line-height: 30px;
+          background: #f5f5f5;
+          text-align: center;
+          font-size: 14px;
+        }
+        .infoTr{
+          text-align: center;
+          vertical-align: middle;
+          padding:3px 0;
+          img{vertical-align: middle;}
+          .goodsName{
+            padding:10px 0;
+            a{
+              color:#000;
+              font-weight: bold;
+              &:hover{
+                color: red;
+            }
+            }
+          }
+        }
+      }
+      .schedule{
+        .scheduleInfo{
+          text-align: left;
+          font-size: 16px;
+          color: #666;
+          line-height: 35px;
+          height: 35px;
+        }
+        .ant-steps-dot .ant-steps-tail{
+          margin:0;
+        }
+        .ant-steps-vertical .ant-steps-main{
+          overflow: unset;
+        }
+        .ant-steps-dot .ant-steps-main .ant-steps-title{
+          position: relative;
+          left:-100px;
+        }
+        .ant-steps-vertical .ant-steps-main .ant-steps-description{
+          position: relative;
+          left:20px;
+        }
+        .ant-steps-dot .ant-steps-item .ant-steps-step{
+          width:220px;
+          text-align: left;
+        }
+      }
+      .row{
+        margin:10px;
+        font-size: 14px;
+        color: #666;
+        div{
+          position: relative;
+          .express{
+            position: absolute;
+            right:90px;
+            bottom:-3px;
+            padding: 4px 8px;
+            border:1px solid red;
+            border-radius: 10px;
+            box-sizing: border-box;
+            &:hover{
+              border:none;
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}
