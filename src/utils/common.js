@@ -1,4 +1,4 @@
-const domian = location.host + "/reagent-front";
+const domian = location.host + "/biopapi";
 // export const IMAGE_DOMAIN='http://192.168.1.112/';
 export const IMAGE_DOMAIN='http://img.reagent.com.cn/';
 

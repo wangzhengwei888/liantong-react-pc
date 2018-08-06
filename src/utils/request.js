@@ -33,7 +33,7 @@ export  async function request(requestUrl, options) {
   const data = await response.json();
   //console.log(data);
   if (data.result == 0) {
-    if (data.code == '99' || data.msg.includes('您尚未登录或登录时间过长,请重新登录!')) {
+    if (data.code == '0' || data.msg.includes('您尚未登录或登录时间过长,请重新登录!')) {
       localStorage.removeItem('token');
       localStorage.removeItem('userName');
       localStorage.removeItem('_cartnum');

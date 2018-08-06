@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="899c74dc-526d-4d08-b019-3be6967d0a09" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/myPlan/MyPlan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/myPlan/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/router/changePlanRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/router/myOrder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/router/myPlanRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/changePlan/ChangePlan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/changePlan/ChangePlan.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/changePlan/ChangePlanDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/myOrder/MyOrder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/myOrder/MyOrderDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/myOrder/Myorder.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/myPlan/myPlanDetail.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/GHS11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/GHS111.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/Layer10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/authenleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/authentication_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/authentication_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/authentication_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/authentication_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/authentication_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/bg_login.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/bg_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/card_zan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/card_zan2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/circle_creat1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/circle_creat2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/circle_creat3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/circle_goos_message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/circle_goos_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/circlr_img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/collected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/custom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/customh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/dangerous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/defaultPhoto.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/details_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/details_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/excel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/foot_logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/gray.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/hone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/hotspots.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/hs_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/ico_close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/authentication_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/details_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/details_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/factory_search1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/floor_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/manufactor_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/manufactor_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/manufactor_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/manufactor_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/plans_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/plans_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/plans_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/plans_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/plans_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/plans_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/search-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/shop_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/shop_2_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/shop_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/activity _registration.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/area.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/arrow_rgiht.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/authentication_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/customer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/details_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/details_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/dian1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/dian2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/foot_logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/help_icon7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/hone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/icon-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/login_ password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/logo_botton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/mailbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/mailbox_success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/menu_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/menu_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/menu_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/menu_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/micro-blog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/mobile_ phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/my_cart_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/nav_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/nav_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/nav_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/nav_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/nav_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/nav_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/navbar_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/navbar_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/navbar_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/navbar_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/navbar_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/navbar_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/not_success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/notice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/notice_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/notice_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/notice_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/notice_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/paysuccess.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/personal_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/pro_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/pro_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/pro_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/promotion_ clearance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/qr_code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/recommend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/recommendation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/register_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/register_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/s_navbar_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/s_navbar_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/s_navbar_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/s_navbar_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/s_navbar_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/s_navbar_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/search_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/search_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/search_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/search_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/shop_details1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/shop_details2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/shop_details3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/shop_details4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/shopping_cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/solid_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/telephone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/view_details_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/view_details_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/wechat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/leimingLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/my_account.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/not_ collected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/notice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/personal_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/qr_code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/recommend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/register_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/register_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/safety.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sc1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/search-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/search_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/search_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/search_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/search_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/selected-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/shop_2_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/shop_details3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/shop_details4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/shopping_cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/shuoming.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/telephone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/accurate_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/brand_dynamic_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/customService_dynamic_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/featureService_dynamic_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/my_account_dynamic_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/new_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/newsContent.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/recommend_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/top/technology_dynamic_Topimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/view_details_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/view_details_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/xiangqin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/yay.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Advertising/Advertising.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Advertising/advertising.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CustomRight/CustomRight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CustomRight/CustomRight.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/DropDown/DropDown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/DropDown/DropDown.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/LeftNav/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/LeftNav/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/LeftRightLayout/LeftRightLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/LeftRightLayout/LeftRightLayout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainLayout/Header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainLayout/MainLayout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainLayout/MainLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/NavItemMy/NavItemMy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/NavItemMy/NavItemMy.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/PayMent/PaymentMethod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Price/price.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Price/price.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/ScrollSpy/ScrollSpy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Search/Search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Search/Search.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Stepper/Stepper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Stepper/Stepper.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreCarousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreIndexHeader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreMenuList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreSearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreSearch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Store/StoreSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Users/UserModal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Users/Users.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Users/Users.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/circleSearch/circleSearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/circleSearch/circleSearch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/brand/Brand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/brand/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/customService/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/customService/customService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/drugReagent/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/drugReagent/drugReagent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/featureService/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/featureService/featureService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/goodsDetail/goodsDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/goodsDetail/goodsDetailApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/group/Fav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/group/Manage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/group/ManageMember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/group/ManageOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/group/Opproval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/group/OpprovalOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/home/GoodsList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/home/GoodsListTwo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/home/StrollFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/home/StrollStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/information/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/information/information.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/login/Login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/login/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/newModel/newdetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/newModel/newhome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/newModel/newlist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/order/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/order/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/payment/paymentModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/person/collectionGood.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/person/collectionStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/person/userApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personInvoice/invoiceInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personInvoice/invoiceInfoApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/AfterSale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/AfterSaleApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/Cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/CartApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/ConsultDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/ConsultDetailApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/ConsultList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/ConsultListApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/ConsultListTwo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/FavList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/FavListApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/MyOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/MyOrderApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/Order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/OrderApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/OrderDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/RefundDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/RefundList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/RefundListApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/myConsultList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/myConsultListApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/personOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/personOrder/personOrderApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/Security.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/authen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/authenApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/memberApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/securityApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonAccount/setMemberInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonIntegral/Integral.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonIntegral/IntegralApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonSetrer/addressModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonSetrer/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonSetrer/queryChannelModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/presonSetrer/setMemberInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/product/Product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/product/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/product/orderApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/product/purchaseTempletModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/product/quickOrderModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/store/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/store/store.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/store/storegoodsList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/technology/Technology.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/technology/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/addwxuser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/brandRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/circleRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/customServiceRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/drugReagentRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/featureServiceRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/goodsDetailRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/groupRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/informationRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/loginRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/newRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/orderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/paymentRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/personIntegralRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/personOrderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/personRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/presonAccountRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/presonInvoiceRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/productRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/storeRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/router/technologyRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/app/PersonBottom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/app/PersonBottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/app/PersonTop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/app/PersonTop.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/app/bottombar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/app/bottombar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/Brand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/Brand.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/BrandSta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/BrandSta.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/Dynamic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/brand/StaticState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/addCircle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/addCircle.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/addteizi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/addteizi.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/agreeUseCircle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/agreeUseCircle.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/cardDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/cardDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/circle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/circle.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/circleDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/circleDetails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/circleList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/circleList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/myFollow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/circle/myFollow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/CustomService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/CustomService.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/CustomServiceDefault.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/NetworkDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/customService/NetworkInfoList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/drugReagent/DrugReagent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/drugReagent/Dynamic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/drugReagent/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/drugReagent/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/drugReagent/StaticState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/featureService/Dynamic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/featureService/FeatureService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/featureService/FeatureService.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/featureService/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/featureService/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/featureService/StaticState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/MSDSPrintFrom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/classGoods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/classGoods.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/goodBanner.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/goodsBanner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/goodsProfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/goodsProfile.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/components/goodsProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/goodsCMSPrint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/goodsCMSPrint.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/goodsDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/goodsDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/goodsPrintList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/goodsPrintListMSDS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/relevantGoods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/goods/relevantGoods.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Fav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Fav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/FavListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Fund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Fund.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Manage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/ManageMember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/ManageMember.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/ManageOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Opproval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/Opproval.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/group/OpprovalOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/HomeFloorTabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/HomeFloorTabs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/HomeNavLeft.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/article.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/article.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/goodsShow_one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/peoductSearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/peoductSearch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/peoductSearchTwo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/strollFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/strollFactory.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/strollStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/home/strollStore.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/information.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/information.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationBottom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationBottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationDetails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationTop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/informationTop.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/recommend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/information/recommend.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/Login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/Login.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/authen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/authen.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/authenInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/forgetPassword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/register.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/top.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/login/top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/new/NewDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/new/NewDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/new/NewList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/new/NewList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/new/Newhome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/new/Newhome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/BuildTemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/BuildTemplate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/CollectionList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/CollectionList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/EditableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/EditableCell.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/PurchaseRecord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/PurchaseRecord.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/PurchasingTemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/PurchasingTemplate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/QuickOrderTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/QuickOrderTable.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/address.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/coupon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/coupon.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/order.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderForm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderForm.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderListDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderReturns.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/orderReturns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/ptInvoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/quickOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/quickOrder.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/quickOrderAPI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/order/zzInvoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/payment/payment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/payment/payment.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/payment/paymentError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/payment/paymentSuccess.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/payment/paymentSueecss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/assetCenter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/backDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/backDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/backGoods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/backGoods.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/backMoney.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/backMoney.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/changeGoods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/changeGoods.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/circleList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/circleList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/circleListAdm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/circlePostList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/circlePostList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/collection_goods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/collection_goods.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/collection_store.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/collection_store.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/evaluateBask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/evaluateBask.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/giftExchange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/giftExchange.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/groupManagement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/groupManagement.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/groupManagementDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/integral.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/messageDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/messageList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/myAddress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/myAddress.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/myLevel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/myLevel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/myconsult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/myconsult.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/personalInformation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/personalInformation.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/predepositIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/purchaseTemplet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/purchaseTemplet.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/purchaseTempletPanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/purchaseTempletPanel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/queryChannel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/queryChannel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/queryChannelDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/queryChannelDetails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/setPassword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/setPassword.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/setSecurity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/setSecurity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/person/urserCoupon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personIntegral/GiftOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personIntegral/GiftOrder.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personIntegral/GiftShoppingCart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personIntegral/GiftShoppingCart.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personIntegral/IntegralMall.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personIntegral/IntegralMall.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personInvoice/invoiceInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personInvoice/invoiceInfo.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/AfterSale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/AfterSale.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/Cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/Cart.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/ConsultDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/ConsultDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/ConsultDetailFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/ConsultList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/ConsultList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/ConsultListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/FavList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/FavList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/FavListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/MyConsultListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/MyOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/MyOrder.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/MyOrderFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/Order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/Order.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/OrderDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/OrderDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/OrderDetailFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/OrderListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/RefundDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/RefundDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/RefundDetailFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/RefundList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/RefundList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/RefundListFloor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/components/CartList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/components/CartList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/components/activitySelect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/components/activitySelect.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/myConsultList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/myConsultList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/personOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/personOrder/personOrder.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/Binding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/Binding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/BindingSuccess.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/MyAccount.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/MyAccount.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/SecurityHome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/SecurityHome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/SetPassword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/SetPassword.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/Unbound.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/Unbound.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/addressList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/addressList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/deposit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/deposit.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/intelligentHistory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/intelligentHistory.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/intelligentUp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/intelligentUp.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/managerTemplates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/managerTemplates.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/personalInformation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/personalInformation.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/purchaseTemplet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/purchaseTemplet.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/purchaseTempletPanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/purchaseTempletPanel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/Accurate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ActivityDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ActivityDetails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ActivityDetailsForm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ActivityDetailsForm.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/BuildTemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/BuildTemplate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/CollectionList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/CollectionList.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/EditableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/EditableCell.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ImportAgent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ImportAgent.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/New.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/Product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/Product.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ProductSort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/ProductSort.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/PurchaseRecord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/PurchaseRecord.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/PurchasingTemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/PurchasingTemplate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/QuickOrderDescription.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/QuickOrderDescription.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/QuickOrderTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/QuickOrderTable.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/RecommendedPromotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/WrappedAdvancedSearchForm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/coupon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/coupon.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/quickOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/quickOrder.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/product/quickOrderAPI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/goodsShow_one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/goodsShow_one.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/goodsShow_onelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/goodsShow_two.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/store.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/store.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/storeDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/storeDetail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/storeInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/storeInfo.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/storeResult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/store/storeResult.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/Dynamic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/LeftNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/LeftNav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/MSDSPrintFrom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/StaticState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/Technology.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/Technology.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/goodsCMSPrint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/goodsCMSPrint.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/goodsDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/goodsPrintList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/technology/goodsPrintListMSDS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/area.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/getArea.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.roadhogrc" afterPath="$PROJECT_DIR$/.roadhogrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/antd-theme.js" afterPath="$PROJECT_DIR$/antd-theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.less" afterPath="$PROJECT_DIR$/src/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/app/App.js" afterPath="$PROJECT_DIR$/src/models/app/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/app/api.js" afterPath="$PROJECT_DIR$/src/models/app/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/home/Home.js" afterPath="$PROJECT_DIR$/src/models/home/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/home/api.js" afterPath="$PROJECT_DIR$/src/models/home/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/homeRouter.js" afterPath="$PROJECT_DIR$/src/router/homeRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/app/App.js" afterPath="$PROJECT_DIR$/src/routes/app/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/app/App.less" afterPath="$PROJECT_DIR$/src/routes/app/App.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/app/topBar.js" afterPath="$PROJECT_DIR$/src/routes/app/topBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/app/topBar.less" afterPath="$PROJECT_DIR$/src/routes/app/topBar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/error/error.js" afterPath="$PROJECT_DIR$/src/routes/error/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/common.js" afterPath="$PROJECT_DIR$/src/utils/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/request.js" afterPath="$PROJECT_DIR$/src/utils/request.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/models/newModel/api.js" afterPath="$PROJECT_DIR$/src/routes/home/Home.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/models/payment/api.js" afterPath="$PROJECT_DIR$/src/routes/home/Home.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/routes/drugReagent/DrugReagent.less" afterPath="$PROJECT_DIR$/src/routes/myPlan/myPlan.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/routes/presonAccount/UnBind.js" afterPath="$PROJECT_DIR$/src/routes/myPlan/myPlan.less" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="topBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/app/topBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPlan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/myPlan/MyPlan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myPlanDetail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/myPlan/myPlanDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myPlan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/myPlan/myPlan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="136" column="55" lean-forward="false" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/app/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/app/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/myPlan/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/app/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/home/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="61" column="2" lean-forward="true" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myPlanRouter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/myPlanRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sc_con</find>
+      <find>bar_left</find>
+      <find>你是</find>
+      <find>hover_dorp</find>
+      <find>app_body</find>
+      <find>Helvetica Neue</find>
+      <find>12px;</find>
+      <find>12px</find>
+      <find>ora</find>
+      <find>app_top</find>
+      <find>toggleOpen</find>
+      <find>startValue</find>
+      <find>endOpen</find>
+      <find>disabledEndDate</find>
+      <find>disabledStartDate</find>
+      <find>maxDate</find>
+      <find>spa</find>
+      <find>addSped</find>
+      <find>#108ee9</find>
+      <find>0e77ca</find>
+      <find>curr_speed</find>
+      <find>handelchange</find>
+      <find>record</find>
+      <find>minCurrSpeed</find>
+      <find>marks</find>
+      <find>user_id</find>
+      <find>setOrderEstimate</find>
+      <find>setOrderEstimate</find>
+      <find>price</find>
+      <find>setOrderEstimateEFF</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/router/homeRouter.js" />
+        <option value="$PROJECT_DIR$/src/routes/home/home.js" />
+        <option value="$PROJECT_DIR$/src/routes/home/home.less" />
+        <option value="$PROJECT_DIR$/src/routes/app/bottombar.js" />
+        <option value="$PROJECT_DIR$/src/routes/error/error.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/routes/home/Home.less" />
+        <option value="$PROJECT_DIR$/src/routes/app/topBar.less" />
+        <option value="$PROJECT_DIR$/src/routes/app/App.less" />
+        <option value="$PROJECT_DIR$/src/routes/myPlan/myPlan.less" />
+        <option value="$PROJECT_DIR$/src/routes/changePlan/ChangePlan.js" />
+        <option value="$PROJECT_DIR$/src/routes/changePlan/ChangePlan.less" />
+        <option value="$PROJECT_DIR$/src/routes/changePlan/ChangePlanDetail.js" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/routes/myOrder/Myorder.less" />
+        <option value="$PROJECT_DIR$/src/routes/myOrder/MyOrder.js" />
+        <option value="$PROJECT_DIR$/src/routes/myOrder/MyOrderDetail.js" />
+        <option value="$PROJECT_DIR$/antd-theme.js" />
+        <option value="$PROJECT_DIR$/src/index.less" />
+        <option value="$PROJECT_DIR$/src/utils/request.js" />
+        <option value="$PROJECT_DIR$/.roadhogrc" />
+        <option value="$PROJECT_DIR$/src/utils/common.js" />
+        <option value="$PROJECT_DIR$/src/models/home/api.js" />
+        <option value="$PROJECT_DIR$/src/routes/app/App.js" />
+        <option value="$PROJECT_DIR$/src/models/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/router/myPlanRouter.js" />
+        <option value="$PROJECT_DIR$/src/router/myOrder.js" />
+        <option value="$PROJECT_DIR$/src/router/changePlanRouter.js" />
+        <option value="$PROJECT_DIR$/src/routes/app/topBar.js" />
+        <option value="$PROJECT_DIR$/src/routes/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/models/app/api.js" />
+        <option value="$PROJECT_DIR$/src/routes/myPlan/myPlan.js" />
+        <option value="$PROJECT_DIR$/src/models/app/App.js" />
+        <option value="$PROJECT_DIR$/src/models/myPlan/api.js" />
+        <option value="$PROJECT_DIR$/src/models/myPlan/MyPlan.js" />
+        <option value="$PROJECT_DIR$/src/routes/myPlan/myPlanDetail.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-121" />
+    <option name="y" value="25" />
+    <option name="width" value="1300" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="GoLogin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="myPlan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="myOrder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="myPlan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liantong-react-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liantong-react-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/workSpace/guoyao/dva" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="E:\git\liantong-react-pc\node_modules\eslint" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\liantong-react-pc\src\models" />
+      <recent name="E:\git\liantong-react-pc\src\routes\myOrder" />
+      <recent name="E:\git\liantong-react-pc\src\router" />
+      <recent name="E:\git\liantong-react-pc\src\routes" />
+      <recent name="E:\git\liantong-react-pc\src\routes\changePlan" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="build:dll" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:dll" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="npm.start" />
+      <item index="1" class="java.lang.String" itemvalue="npm.build:dll" />
+      <item index="2" class="java.lang.String" itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="npm.start" />
+        <item index="1" class="java.lang.String" itemvalue="npm.build" />
+        <item index="2" class="java.lang.String" itemvalue="npm.build:dll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zyz\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="899c74dc-526d-4d08-b019-3be6967d0a09" name="默认" comment="" />
+      <created>1528300313283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528300313283</updated>
+      <workItem from="1528300314757" duration="686000" />
+      <workItem from="1528304311006" duration="695000" />
+      <workItem from="1528360692439" duration="15000" />
+      <workItem from="1529246710515" duration="8990000" />
+      <workItem from="1529478648663" duration="605000" />
+      <workItem from="1529495607236" duration="11095000" />
+      <workItem from="1529586824861" duration="594000" />
+      <workItem from="1530098874124" duration="8169000" />
+      <workItem from="1530149020170" duration="161000" />
+      <workItem from="1532671471648" duration="1349000" />
+      <workItem from="1532887661853" duration="2458000" />
+      <workItem from="1533554206141" duration="12797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47614000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18967333" sideWeight="0.4621514" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.067464635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16069546" sideWeight="0.5378486" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10881393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/loginBtn/loginBtn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftRightLayout/LeftRightLayout.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/LeftNav/LeftNav.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/GoLogin/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DropDown/DropDown.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/circleSearch/circleSearch.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/login/authen.js" />
+    <entry file="file://$PROJECT_DIR$/src/utils/getArea.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/login/top.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/app/bottombar.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/app/bottombar.less" />
+    <entry file="file://$PROJECT_DIR$/src/routes/error/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GoLogin/Login.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/app/topBar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/app/App.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/home/Home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/changePlan/ChangePlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="48" column="58" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/changePlan/ChangePlan.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/dva/router.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="44" column="10" lean-forward="false" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/changePlan/ChangePlanDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="94" column="27" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/myOrder/Myorder.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/myOrder/MyOrderDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/antd-theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/myOrder/MyOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.roadhogrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/home/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="65" column="11" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/myPlan/myPlan.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/myOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/homeRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/errorRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/changePlanRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/app/topBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="61" column="2" lean-forward="true" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/app/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/myPlan/myPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="136" column="55" lean-forward="false" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/myPlan/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/myPlanRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/myPlan/MyPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/myPlan/myPlanDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

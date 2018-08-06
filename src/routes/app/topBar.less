@@ -1,61 +1,61 @@
-.top_bar{
-  width: 1200px;
-  margin: 0px auto;
-  height: 100%;
-  :global{
-    .bar_left{
-      height: 30px;
-      line-height: 30px;
-      text-align: left;
-      font-size: 14px;
-    }
-    .sc_con{
-      height: 30px;
-      padding: 9px 0px;
-    }
-    .sc_may{
-      cursor: pointer;
-      font-size: 14px;
-      hieght:14px;
-      line-height: 14px;
-      text-align: center;
-      border-right: 1px solid #ccc;
-      color: #666;
-      font-family: '思源黑体';
-      a{
-        color: #666;
-      }
-      //margin: 9px 0px;
-      &:hover{
-       // background-color: #ffffff
-       // border-right: 1px solid #fff;
-      }
-    }
-    .logout{
-      color:#264a94;
-      cursor: pointer;
-    }
-    .hover_dorp{
-      width:9%;
-      &:hover{
-        background-color: #fff;
-        .anticon.anticon-down{
-          transform: rotate(180deg);
-        }
-      }
-    }
-    .preson{
-      background: url("../../assets/menu_2.png") 4px center/contain no-repeat;
-      a{
-        color: #666;
-      }
-    }
-    .huanyi{
-      height: 14px;
-      line-height: 14px;
-      font-size: 14px;
-      font-family: '思源黑体';
-    }
+.top_bar {
+ width: 1200px;
+ margin: 0px auto;
+ height: 80px;
+ :global {
+  .top_logo {
+   float: left;
+   height: 80px;
+   line-height: 80px;
+   font-size: 20px;
+   img {
+    vertical-align: top;
+    height: 80px;
+   }
   }
+  .top_user {
+   float: right;
+   margin-top: 55px;
+   span {
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+   }
+  }
+  .logout {
+   color: #264a94;
+   cursor: pointer;
+  }
+ }
+}
+
+.top_menu {
+ background-color: #ff6100;
+ width: 100%;
+ height: 50px;
+ :global {
+  .menu_line{
+   height:2px;
+   background-color: #ff6100;
+  }
+  .menu_item {
+   height:48px;
+   line-height:48px;
+   width: 1200px;
+   margin: 0 auto;
+   a {
+    float: left;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+   }
+   a.actived {
+    background-color: #fff;
+    color: #ff6100;
+    text-decoration: none;
+   }
+  }
+ }
+
 }
 

@@ -1,0 +1,29 @@
+.home_nav {
+ width: 1200px;
+ margin: 0 auto;
+ :global {
+  .home_info {
+   border: 1px solid #e6e6e6;
+   line-height: 62px;
+   height: 62px;
+   margin-bottom: 10px;
+   padding: 0 30px;
+   span {
+    margin-right: 30px;
+   }
+
+  }
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+   text-align: center;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+   background-color: #eee;
+   color: #000;
+   font-weight: bold;
+  }
+  .ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover{
+   background-color: #eee;
+   color: #000;
+  }
+ }
+}

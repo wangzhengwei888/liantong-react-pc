@@ -13,10 +13,10 @@
    ]
  },
   "proxy": {
-          "/reagent-front": {
-             "target": "http://new.reagent.com.cn/",
+          "/biopapi": {
+             "target": "http://61.50.254.246",
              "changeOrigin": true,
-             "pathRewrite": { "^/reagent-front" : "/reagent-front" }
+             "pathRewrite": { "^/biopapi" : "/biopapi" }
            }
   },
   "extraBabelPlugins": [

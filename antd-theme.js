@@ -22,7 +22,7 @@ module.exports = function(){
         "@text-color"             : "#666",
         "@heading-color"          : "#404040",
         "@text-color-secondary"   : "#999",
-        "@font-size-base"         : "12px",
+        "@font-size-base"         : "14px",
         "@font-size-lg"           : "@font-size-base + 2px",
         "@line-height-base"       : "1.5",
        // "@border-radius-base"     : "3px",
@@ -37,8 +37,8 @@ module.exports = function(){
         "@link-hover-decoration"  : "none",
 
         // Border color
-        "@border-color-base"      : "#d9d9d9",        // base border outline a component
-        "@border-color-split"     : "#e9e9e9",        // split border inside a component
+        "@border-color-base"      : "#ff6100",        // base border outline a component
+        "@border-color-split"     : "#ff6700",        // split border inside a component
 
         // Background color
         "@background-color-base"  : "#f7f7f7",
