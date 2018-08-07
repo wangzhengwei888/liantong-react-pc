@@ -15,12 +15,6 @@ let maxZhNow = moment().add(30, 'days').locale('zh-cn').utcOffset(8 + 4);
 
 import {plan_box} from './myPlan.less';
 
-const marks = {
- 10: '10M',
- 50: '50M',
- 100: '100M'
-};
-
 
 class MyPlan extends Component {
  constructor(props) {
@@ -35,6 +29,14 @@ class MyPlan extends Component {
    currSpeed: 10,
    lineId: ""
   }
+ }
+
+ marks = () => {
+  let minCurrSpeed = this.state.minCurrSpeed
+  let obj = {}
+  obj[minCurrSpeed] = minCurrSpeed+"M";
+  obj[100] = "100M";
+  return obj
  }
 
  handleChange = (value) => {
@@ -174,7 +176,7 @@ class MyPlan extends Component {
     <Row>
      <Col span={3} offset={1}>提速速率</Col>
      <Col span={15}>
-      <Slider marks={marks} defaultValue={minCurrSpeed} style={{width: 480}} dots={true} step={10} min={minCurrSpeed}
+      <Slider marks={this.marks()} defaultValue={minCurrSpeed} style={{width: 480}} dots={true} step={10} min={minCurrSpeed}
               onChange={this.stepChange}/>
      </Col>
      <Col span={3}>已选择带宽 {currSpeed}M</Col>

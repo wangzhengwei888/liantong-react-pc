@@ -34,52 +34,52 @@ class MyorderDetail extends Component {
  }
 
  columns = [{
-  title: '专线号码',
-  dataIndex: 'name',
-  key: 'name',
+  title: '订单编号',
+  dataIndex: 'order_id',
+  key: 'order_id',
  }, {
-  title: '当前速率',
-  dataIndex: 'age',
-  key: 'age',
+  title: '订单状态',
+  dataIndex: 'order_status',
+  key: 'order_status',
+  render: (text, record) => {
+   let status = record.order_status
+   return <span>{status == 1 ? "未处理" : status == 2 ? "预约中"  : status == 3 ? "提速中" : status == 4 ? "完成" : "取消"}</span>
+  }
  }, {
-  title: 'A端地址',
-  dataIndex: 'address',
-  key: 'address',
+  title: '产品名称',
+  dataIndex: 'product_name',
+  key: 'product_name',
  }, {
-  title: 'Z端地址',
-  dataIndex: 'address2',
-  key: 'address2',
+  title: '订购日期',
+  dataIndex: 'buy_date',
+  key: 'buy_date',
+  render: (text, record) => {
+   return <span>{new Date(record.buy_date).toLocaleString()}</span>
+  }
  }, {
-  title: '当前状态',
-  dataIndex: 'status',
-  key: 'status',
+  title: '计划总价',
+  dataIndex: 'total_price',
+  key: 'total_price',
+  render: (text, record) => {
+   return <span>{record.total_price}元</span>
+  }
  }];
 
 
 
- handelchange = (pagNo) => {
-  console.log(pagNo)
- }
-
-
-
  render() {
+  const orderEnterList = this.props.myOrder.orderEnterList
   return (
    <div className={home_nav}>
-      <Table dataSource={dataSource}
-             pagination={{
-              total: 50,
-              current: 1,
-              pageSize: 10,
-              showQuickJumper: true,
-              onChange: this.handelchange
-             }} columns={this.columns}/>
+      <Table dataSource={orderEnterList}
+             pagination={false}
+             columns={this.columns}/>
    </div>
   );
  }
 }
 
 
-export default connect(({home, app}) => ({home, app}), (dispatch, own) => {
+export default connect(({myOrder, app}) => ({myOrder, app}), (dispatch, own) => {
  return {dispatch, own}
 })(MyorderDetail);

@@ -16,20 +16,20 @@ export default {
   * loginStatus({token}, {put, call}) {
    const data = yield call(getLoginStatus, {token});
    if (data.code == 0) {
-    sessionStorage.setItem("userInfo", JSON.stringify(result.data.user))
-    sessionStorage.setItem("token", result.data.token)
+    sessionStorage.setItem("userInfo", JSON.stringify(data.data.user))
+    sessionStorage.setItem("token", data.data.token)
     yield put({type: 'load', preload: data});
    } else {
-    message.error(data.msg, 1.5, () => {
-     // Modal.warning({
-     //  content: '未登录或登录失效,请重新登录',
-     //  okText: "去登录",
-     //  title: "提示",
-     //  onOk: function () {
-     //   console.log("aaaaaaaa")
-     //  }
-     // })
-    });
+    // message.error(data.msg, 1.5, () => {
+    //  Modal.warning({
+    //   content: '未登录或登录失效,请重新登录',
+    //   okText: "去登录",
+    //   title: "提示",
+    //   onOk: function () {
+    //    console.log("aaaaaaaa")
+    //   }
+    //  })
+    // });
    }
   },
   //价格
@@ -42,6 +42,10 @@ export default {
     });
    }
   },
+  *logout({},{put,call}){
+   sessionStorage.removeItem("token")
+
+  }
  },
 
  reducers: {
@@ -64,6 +68,9 @@ export default {
   setup({dispatch, history}) {
    return history.listen(({pathname, query}) => {
     let token = query.token || sessionStorage.getItem("token")
+    console.log(token)
+    dispatch({type: 'loginStatus', token: token});
+    dispatch({type: 'getOrderRuleEFF'});
     if (token) {
      // Modal.warning({
      //  content: '未登录或登录失效,请重新登录',

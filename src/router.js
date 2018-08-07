@@ -6,7 +6,8 @@ import { homeRouter } from './router/homeRouter';    //按模块拆分路由，�
 import { errorRouter } from './router/errorRouter';    //按模块拆分路由，一个模块尽量5-10个路由，
 import { myPlanRouter } from './router/myPlanRouter';    //按模块拆分路由，一个模块尽量5-10个路由，
 import { changePlanRouter } from './router/changePlanRouter';    //按模块拆分路由，一个模块尽量5-10个路由，
-import { myOrderRouter } from './router/myOrder';    //按模块拆分路由，一个模块尽量5-10个路由，
+import { myOrderRouter } from './router/myOrderRouter';    //按模块拆分路由，一个模块尽量5-10个路由，
+import { helpRouter } from './router/helpRouter';    //按模块拆分路由，一个模块尽量5-10个路由，
 
 
 
@@ -29,6 +30,7 @@ function RouterConfig({ history, app }) {
       ...myPlanRouter(app),
       ...changePlanRouter(app),
       ...myOrderRouter(app),
+      ...helpRouter(app),
       ...errorRouter(app)
     ],
 

@@ -23,12 +23,12 @@ class TopBar extends Component {
    <div>
     <div className={top_bar}>
       <div className="top_logo">
-       <img src={require('../../assets/404.jpg')} alt=""/>
+       <img src={require('../../assets/logo.png')} alt=""/>
        <span style={{color:"#ff6100",marginLeft:'20px'}}>北京联通传输专线提速平台</span>
       </div>
       <div className="top_user">
-       <span>您好 {userInfo && userInfo.name}</span>
-       <span style={{border:'0',paddingRight:0}}>退出</span>
+       <span>您好 {userInfo.user && userInfo.user.name}</span>
+       <span style={{border:'0',paddingRight:0,cursor:"pointer"}} onClick={this.logout}>退出</span>
       </div>
     </div>
     <div className={top_menu}>

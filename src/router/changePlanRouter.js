@@ -10,7 +10,7 @@ export function changePlanRouter(app) {
     //  havTop:false,        //是否有头部,默认有
       getComponent(nextState, cb){
         require.ensure([], (require) => {
-          registerModel(app, require('../models/home/Home'));
+          registerModel(app, require('../models/changePlan/ChangePlan'));
           cb(null, require('../routes/changePlan/ChangePlan'))
         },'ChangePlan');
       },
@@ -19,7 +19,7 @@ export function changePlanRouter(app) {
     path:'/changePlan/detail',
     getComponent(nextState,cb){
      require.ensure([], (require) => {
-      registerModel(app, require('../models/home/Home'));
+      registerModel(app, require('../models/changePlan/ChangePlan'));
       cb(null, require('../routes/changePlan/ChangePlanDetail'))
      },'ChangePlanDetail');
     }

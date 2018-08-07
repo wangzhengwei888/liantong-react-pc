@@ -71,7 +71,7 @@ class Home extends Component {
   return (
    <div className={home_nav}>
     <p className="home_info">
-     <span>客户联系人:{userInfo && userInfo.name}</span>
+     <span>客户联系人:{userInfo.user && userInfo.user.name}</span>
     </p>
     <Table dataSource={data}
            pagination={false}
